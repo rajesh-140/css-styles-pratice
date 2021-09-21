@@ -1,0 +1,93 @@
+<html>
+  <head>
+    <style>
+    .container {
+     width:400px;
+      height:300px;
+      background-color:#62306D;
+      position:relative 
+      }
+      .div1 {
+        width:300px;
+        height:100px;
+        background-color:#F7EC7D;
+        position:absolute;
+        bottom:0px;
+        left:50px
+      }
+      .div2 {
+        width:100px;
+        height:120px;
+        background-color:#F7EC7D;
+        position:absolute;
+        bottom:80px;
+        left:150px;
+      }
+      .div3 {
+          width:100px;
+        height:100px;
+        background-color:#E38F66;
+        position:absolute;
+        border-radius:50%;
+        bottom:150px;
+        left:150px
+      }
+        .div4 {
+          width:100px;
+        height:100px;
+        background-color:#AA445F;
+        position:absolute;
+        border-radius:50%;
+        bottom:50px;
+        right:50px
+      }
+         .div5 {
+          width:100px;
+        height:100px;
+        background-color:#AA445F;
+        position:absolute;
+        border-radius:50%;
+        bottom:50px;
+        left:50px
+      }
+      #first {
+        width:60px;
+        height:60px;
+        background-color:#E38F66;
+        position:absolute;
+        border-radius:50%;
+        bottom:70px;
+        left:70px;
+      }
+         #second {
+        width:60px;
+        height:60px;
+        background-color:#E38F66;
+        position:absolute;
+        border-radius:50%;
+        bottom:70px;
+        right:70px;
+      }
+         #three {
+        width:60px;
+        height:60px;
+        background-color:#AA445F;
+        position:absolute;
+        border-radius:50%;
+        bottom:170px;
+        left:170px;
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="div1"></div>
+      <div class="div2"></div>
+       <div class="div3"></div>
+       <div class="div4"></div>
+       <div class="div5"></div>
+      <div id="first"></div>
+       <div id="second"></div>
+       <div id="three"></div>
+    </div>
+  </body>
+</html>
