@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <style>
+      body {
+        
+      }
+      div {
+        
+        height:300px;
+        width:400px;
+       /* border:1px solid;*/
+        background-color:#5d3a3a;
+        position:relative;
+        
+      }
+           .inner {
+        height:200px;
+        width:200px;
+       /* border:1px solid white;*/
+        position:absulate
+          top:0px;
+          left:0px;
+             background-color:#b5e0ba;
+      }
+      </style>
+  </head>
+  <body>
+      <div>
+        <div class="inner"></div>
+      
+      </div>
+  </body>
+</html>
